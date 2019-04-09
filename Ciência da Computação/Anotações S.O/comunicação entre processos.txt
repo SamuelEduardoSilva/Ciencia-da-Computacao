@@ -1,0 +1,65 @@
+COMUNICAÇÃO ENTRE PROCESSOS/THREADS - devemos levar em consideração três aspectos:
+	- comunicação: como ocorre e como se mantém? exemplo: um processo espera a resposta de outro processo (tipo númerico, texto, etc.), deve-se preocupar com o tipo da informação.
+	- garantir que não entrem em conflito.. exemplo: se um processo entra em conflito, pode parar o sistema
+	- garantir sequência adequada/lógica quando houver pendências
+
+dentro da comunicação entre processos
+
+1 - condições de corrida
+	"competição entre os processos".. exemplo, há 400 processos na máquina disputando o mesmo hardware/lugar.. em um determinado momento, mais de um processo pode tentar utilizar um hardware.
+
+
+2 - regiões críticas
+	o lugar onde dois ou mais processos tentam acessar (das condições de corrida)
+	- dois processos jamais podem acessar simultaneamente a região crítica, pois um pode sobrepor o outro;
+	- nenhum processo executando fora da sua região crítica pode bloquear outro processo, pois pode comprometer o sistema;
+	- nenhum processo deve esperar eternamente para acessar sua região crítica.. um processo esperar o outro parar de executar e o comando de 'acordar' o processo da fila de espera não funcionar ou não for enviado, ele vai esperar 'eternamente';
+	- nada pode ser afirmado sobre a velocidade dos processos ou número de CPUs (livres)
+
+
+3 - exclusão mútua
+	IMAGEM 5
+	
+	1. desabilitar interrupções: nenhum processo mais pode chamar o processador para realizar uma instrução
+	2. travas - 0 ou 1: alguma região se torna crítica, o sistema cria uma variável pra controlar (1 quando na reg crit, 0 quando não)
+	3. chaveamento obrigatório
+	4. solução de peterson: "uma fila onde se demonstra interesse em acessar a reg crit, ele põe pra dormir até que o chame"
+		consumidor/reprodutor
+
+4 - dormir/acordar: pode haver um problema de um processo de baixa prioridade executar no lugar do de alta
+	exemplo: buffer de música.. tem o produtor e consumidor.. quando o produtor produz muito e o buffer fica cheio, o consumidor
+
+
+5 - semáforos - int contador
+	objetivo:	conta e controlar quem vai acessar uma determinada região crítica.
+	como?	cria uma variável inteira para contar todos os sinais de acordar armazenados. Exemplo: int = 3 (processos querendo acessar a reg crit). A partir desse valor, controla e conta quem vai acessar a reg crit. Cada vez que o processo entra na reg crit, a variável é decrementada. Quando chega no 0, "não cabe mais ninguém, POR ENQUANTO". Se algum outro processo tentar entrar, não é aceito. Um processo, então, termina suas operações. A variável incrementa.
+	
+	down (sleep) -> verifica se o valor é > 0,
+			se sim, decrementa.
+	up (wakeup)  -> se algum processo estiver dormindo no semáforo, o escalonador escolhe um e faz acordá-lo.
+	
+O bloqueio também ocorre nos processadores sobre qual processo será escolhido, assim como na interrupção dos processos.
+
+
+6 - mutexes - trabalha com duas linhas. Usa uma variável quando ela é diferente de 0 (impedido) ou igual a 0 (desimpedido). Apesar de ser uma variável inteira, ela não é decrementada ou incrementada, ou seja, não conta.
+	- impedido	-> qualquer valor (int)
+	- desimpedido	-> = 0
+
+
+7 - monitor	- monitora os processos
+	- conjunto de procedimentos, variáveis e estruturas, todas agrupadas.
+	ou seja, pacote (de instruções e tudo mais) destinado ao auxílio no fucionamento do processo.
+	de forma simples, aparece uma região crit, esse monitor passa a tomar conta dessa reg crit. sempre que um proc quer entrar na reg crit, o monitor verifica se tem alguém utilizando.. se houver, "wait" até que termine de executar um processo e pare de monitorá-lo.. então, chama um outro processo através do "signal". Somente um processo por vez. Monitor é como se fosse um "guarda". Os processos a serem acordados se seguem aleatoriamente. Na reg crit, isso não é tão importante (o fato de ser aleatório) pois há poucos/menos processos.
+	
+	wait - esperar
+	signal - acordar
+	
+	Java - synchronized. Exemplo: há um programa com threads. Se um processo e outro acabam tendo o mesmo endereçamento ou algo do tipo, o synchronized faz com que seja somente um por vez.
+
+
+8 - troca de mensagem - é mandar mensagem de um processo a outro, organizando. 
+	problemas: pensando em uma máquina/processador, é pesado fazer isso, pois é preciso ficar mandando msg de um processo para outro. Em rede, porém, é mais utilizado. (na rede), o problema é a segurança e a comunicação.
+
+
+9 - barreiras - é mais para sincronização de processos (quando podem passar ou não para determinadas etapas) do que utilização das reg crits.
+	IMAGEM 6

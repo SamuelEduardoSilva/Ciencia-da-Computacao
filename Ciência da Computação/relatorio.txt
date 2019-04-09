@@ -1,0 +1,101 @@
+18/07 - Primeiro dia, fiquei apenas acompanhando o funcionário responsável pelo desenvolvimento mobile, e conhecendo a empresa.
+19/07 - Continuei acompanhando o desenvolvimento, além de conhecer o atual projeto que está sendo desenvolvido.
+20/07 - Montamos um computador para mim, e configurei todas as ferramentas necessárias para o desenvolvimento.
+23/07 - Abrimos os chamados do aplicativo, e peguei um deles para desenvolver.
+24/07 - Continuei no desenvolvimento do chamado.
+25/07 - Finalizei o chamado.
+26/07 - Foi pedido uma "splash screen" para o aplicativo, e comecei o desenvolvimento.
+27/07 - Finalizei a "splash screen" do aplicativo e fizemos alguns testes de versionamento do app com o software SourceTree.
+30/07 - Consertei alguns bugs referentes a Splash Screen e ao dialog de serviços e melhorei algumas questões de layout que foram requisitadas em relação ao "Alterar Senha do App".
+31/07 - Começamos o projeto do app do logista, analizamos os requisitos e dividimos algumas tarefas.
+01/08 - Criei a splash screen do app logista, e comecei o layout da tela de "gerar segunda via de faturas"
+02/08 - Continuei desenvolvendo a tela de "gerar segunda via de faturas", corrigindo alguns bugs e validando campos.
+03/08 - Finalizei o front-end da tela de "gerar segunda via de faturas".
+06/08 - Subimos a ultima versão do app cliente para a playstore, e comecei a parte do back-end da tela "gerar segunda via de faturas".
+07/08 - Comecei a implementaçao do back-end da tela "gerar segunda via de faturas"
+08/08 - Alinhamos algumas questões do versionamento do app logista e continuei a implementação
+09/08 - Finalizei a tela de "gerar segunda via de faturas" do app do logista
+10/08 - Comecei uma tela, a de consultar saldo do cliente
+13/08 - Finalizei a tela de consultar o saldo do cliente
+14/08 - Comecei a tela de desbloqueio de cartão
+15/08 - Acertamos alguns detalhes do back end da tela de desbloqueio de cartão, e comecei a implementar o front-end
+16/08 - Finalizei o front-end da tela desbloquei de cartão
+17/08 - Ajustei alguns detalhes da tela de desbloqueio de cartão, e comecei alguns testes
+20/08 - Comecei a funcionalidade de gerar a segunda via do desbloqueio de cartão.
+21/08 - Finalizei a funcionalidade de gerar a segunda via do desbloqueio de cartão.
+22/08 - Eu e o Marco alinhamos nossos projetos no Git para conseguirmos trabalhar em conjunto no app lojista.
+23/08 - Comecei a tela de aprovação de vendas
+24/08 - Finalizei o front-end da tela de aprovação de vendas.
+27/08 - Comecei o tratamento de erros da tela de aprovação de vendas e alguns testes com a API.
+28/08 - Comecei a tela principal do app lojista
+29/08 - Melhorei alguns detalhes da tela principal do lojista, além de criar o menu.
+30/08 - Começamos testes no app lojista para já gerar uma apk inicial.
+31/08 - Discutimos e implementamos alguns detalhes da tela principal do app lojista
+03/09 - Comecei a tela de Novo Cadastro do app lojista
+04/09 - Continuei a implementação da tela de novo cadastro do app lojista
+05/09 - Desenvolvi alguns testes para a tela de novo cadastro do app lojista
+06/09 - Finalizei a primeira parte da tela de novo cadastro do app lojista
+10/09 - Implementei mais telas na parte do cadastro do app lojista
+11/09 - Fiz melhoramentos no fluxo das telas do novo cadastro do app lojista
+12/09 - Mais melhoramentos no fluxo das telas do novo cadastro do app lojista
+13/09 - Continuei implementação das telas do novo cadastro, tela de dados profissionais e formas de contato
+14/09 - Implementei a tela de dados bancários e dei início a criação da step bar do cadastro.
+17/09 - Finalização da step bar e tratamentos nos campos (obrigatórios)
+18/09 - Inicio da implementação da tela de proposta
+19/09 - Finalização da implementação da tela de proposta
+20/09 - Início da implementação da tela de lista de propostas
+21/09 - Continuação da implementação da tela de lista de propostas
+24/09 - Continuação da implementação da tela de lista de propostas
+25/09 - Melhoramento do front-end da tela de lista de propostas
+26/09 - Continuação da implementação da tela de lista de propostas
+27/09 - Melhoramento gerais front-end do app lojista
+28/09 - Melhoramento gerais front-end do app lojista
+01/10 - Conversa com o setor de marketing para definir layouts do lojista
+02/10 - Inicio das primeiras implementações vindas do marketing
+03/10 - Continuação das primeiras implementações
+04/10 - Definição de melhorias pro app lojista
+05/10 - Continuação das implementações das melhorias
+09/10 - Criação da tela inicial nova do app lojista
+10/10 - Testes em web services para a tela inicial
+11/10 - Mais testes de eficiencia dos web services
+12/10 - Feriado
+15/10 - Criação do documento de requisitos de web services para o app lojista
+16/10 - Criação da nova splash screen do app lojista
+17/10 - Estudo sobre otimização das telas iniciais do app lojista
+18/10 - Melhorias na tela de cadastro de propostas
+19/10 - Melhorias na tela de cadastro de propostas 
+22/10 - Melhorias na tela de geração de relatório
+23/10 - Meljorias na tela de solitação de saque
+24/10 - Melhorias na tela de emissão de segunda via de faturas
+25/10 - Implementação da tela de desbloqueio de cartão
+26/10 - Melhorias da tela de desbloqueio de cartão
+29/10 - Melhorias da tela de aprovação instantanea
+30/10 - Melhorias da tela de autorização de vendas
+31/10 - Melhorias da tela de code behind da tela de autorização de vendas
+01/11 - Otimização da questões de respostas das perguntas pra desbloquei de cartão
+02/11 - feriado
+05/11 - viagem
+06/11 - viagem
+07/11 - viagem
+08/11 - viagem
+09/11 - viagem
+12/11 - Aqui voltei para o projeto do cliente, e estudei como ele estava
+13/11 - Conversa com Mateus sobre novos requisitos do app cliente e estudo de como os fazer
+14/11 - Inicio da implementação da tela de solicitação de saque
+15/11 - Feriado
+16/11 - Estudo de como carregar uma imagem da camera do celular e armezena-la
+19/11 - Conversa com o setor de marketing para continuação do app lojista
+20/11 - Melhoria dos ícones do app lojista
+21/11 - Finalização da tela principal do app lojista
+22/11 - Desenvolvimento da tela de login do app lojista
+23/11 - Melhorias na tela de login do app lojista
+26/11 - Validação com o marketing das melhorias até então no app lojista
+27/11 - Correção de alguns bugs de front end
+28/11 - Finalização novamente das telas de login e principal do app lojista
+29/11 - Conversa com João Paulo sobre um requisito para o app cliente
+30/11 - Inicio do desenvolvimento das máscaras para banco e agência 
+03/12 - Continuação do desenvolvimento das máscaras 
+04/12 - Finalização do desenvovlimento das máscaras e testes internos
+05/12 - Correção de alguns bugs das máscaras
+06/12 - Geração da apk para teste do João Paulo com relação as máscaras
+07/12 - Estudo sobre a publicação em produção na play store

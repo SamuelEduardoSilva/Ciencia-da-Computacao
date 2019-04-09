@@ -1,0 +1,9 @@
+ESCALONAMENTO
+
+1 - justiça: todos precisam de uma fatia de tempo para executar suas operações
+2 - eficiência: não adianta ser justo se um precisa de 1 seg e outro, 10, pois alguns serão prejudicados, por isso é preciso eficiência
+3 - tempo de espera: deve diminuir o maximo o tempo de espera que o processo fica na fila.
+4 - tempo de resposta: diminuindo o tempo de espera, diminui-se o tempo de resposta. 
+5 - vazão: quanto mais proc executar num periodo de tempo, melhor.
+
+Escalonamento: 300 processos e threads disputando um processador. O SO precisa levar em conta os 5 itens acima.

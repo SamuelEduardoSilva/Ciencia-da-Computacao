@@ -1,0 +1,11 @@
+grafo g ;
+
+g = fun gera_grafo_aleatorio ( 10 , 20 ) ;
+
+int resp ;
+
+resp = fun arvore_geradora_minima ( g ) ;
+
+fun print ( resp ) ;
+
+

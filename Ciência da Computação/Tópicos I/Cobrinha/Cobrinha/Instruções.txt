@@ -1,0 +1,21 @@
+O jogo "Cobrinha", é para fins didáticos.
+Ao iniciar tem-se a telinha com as opções:
+
+1 - Jogador
+
+Aqui, é apenas pra pessoa que não conhece o jogo clássico se habituar
+com a dinâmica do jogo.
+
+2 - Distancia de Manhattan
+
+Esta opção é para vizualização de como a distância de Manhattan
+funciona, ou seja, a cobrinha irá buscar as maçãs utilizando a distância de
+Manhattan, e é possivel ver porque dela ser falha em alguns casos.
+
+3 - Busca em Largura
+
+Esta opção é para vizualização de como a busca em largura funciona, onde
+a cobrinha irá buscar com base no caminho mínimo entre sua cabeça 
+e a maçã.
+
+Utilize a opção 1 e tente superar a pontuação dos dois algoritmos :)

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+  <style name="BrasilCardLojista" parent="AppTheme.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimaryDark</item>
+    <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+    <item name="android:textColorPrimaryInverse">@color/brasilcard_Lojista_background</item>
+    <item name="android:textColorSecondary">@color/brasilcard_Lojista_background</item>
+    <item name="actionMenuTextColor">@color/brasilcard_primary_dark</item>
+    <item name="android:colorForeground">@color/design_fab_stroke_end_outer_color</item>
+    <item name="android:colorBackground">@color/brasilcard_Lojista_background</item>
+  </style>
+
+    <style name="CF" parent="AppTheme.NoActionBar">
+    <item name="colorPrimary">#FFF981</item>
+    <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+    <item name="android:textColorPrimaryInverse">@color/brasilcard_Lojista_background</item>
+    <item name="android:textColorSecondary">@color/brasilcard_Lojista_background</item>
+    <item name="actionMenuTextColor">@color/brasilcard_primary_dark</item>
+    <item name="android:colorForeground">@color/design_fab_stroke_end_outer_color</item>
+    <item name="android:colorBackground">@color/brasilcard_Lojista_background</item>
+  </style>
+  <style name="BrasilCardLojistaComActionBar">
+    <item name="windowActionBar">true</item>
+    <item name="windowNoTitle">true</item>
+    <item name="colorPrimary">@color/colorPrimaryDark</item>
+    <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+    <item name="android:textColorPrimaryInverse">@color/brasilcard_Lojista_background</item>
+    <item name="android:textColorSecondary">@color/brasilcard_Lojista_background</item>
+    <item name="actionMenuTextColor">@color/brasilcard_primary_dark</item>
+    <item name="android:colorForeground">@color/design_fab_stroke_end_outer_color</item>
+    <item name="android:colorBackground">@color/brasilcard_Lojista_background</item>
+  </style>
+
+  <style name="BrasilCardLojistaLogin" parent="AppTheme.NoActionBar">
+    <item name="colorPrimary">@color/brasilcard_primary_dark</item>
+    <item name="android:colorBackground">@color/colorPrimaryDark</item>
+    <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+    <item name="android:colorForeground">@color/foreground_material_dark</item>
+    <item name="android:textColorSecondary">
+      @color/brasilcard_secondary_text_material_light
+    </item>
+    <!--<item name="android:textColorPrimaryInverse">@color/design_textinput_error_color</item>-->
+
+    <item name="android:statusBarColor">@color/brasilcard_primary_dark</item>
+    <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+    <item name="android:navigationBarColor">@color/brasilcard_primary_dark</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+  </style>
+
+  <style name="BrasilCardLojista.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+  <style name="BrasilCardLojista.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+  <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+    <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+    <item name="android:textColor">@color/foreground_material_dark</item>
+    <item name="actionMenuTextColor">@color/colorPrimary</item>
+  </style>
+
+  <style name="BrasilCardLojista.Spinner" parent="AppTheme.ActionBar">
+    <item name="android:textColor">@color/colorPrimaryDark</item>
+    <item name="android:textColorHighlight">@color/colorPrimaryDark</item>
+  </style>
+
+  <style name="Splash" parent ="Theme.AppCompat.Light.NoActionBar">
+    
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:colorBackground">@color/colorPrimaryDark</item>
+    <item name="android:windowBackground">@drawable/nsplash</item>
+  </style>
+  
+  <style name="Dialog" parent="Theme.AppCompat.Dialog">
+    <item name="android:windowNoTitle">false</item>
+    <item name="android:windowIsFloating">true</item>
+  </style>
+
+  <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+    <item name="android:textColor">#00FF00</item>
+    <item name="android:typeface">monospace</item>
+    <item name="android:textSize">10sp</item>
+  </style>
+  
+  <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="colorAccent">#546E7A</item>
+    <item name="android:textColorPrimary">#37474F</item>
+    <item name="android:background">#B0BEC5</item>
+  </style>
+
+  <style name="MyCheckBox" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorControlNormal">#000</item>
+    <!-- normal border color change as you wish -->
+    <item name="colorControlActivated">#000</item>
+    <!-- activated color change as you wish -->
+     <item name="android:textColor">#00000000</item>
+  
+  </style>
+
+</resources>
+ 

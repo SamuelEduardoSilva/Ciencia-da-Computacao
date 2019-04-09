@@ -1,0 +1,10 @@
+-- Relatório de Registros --
+
+Cidadão 1:
+Nome: Samuel.
+Classe: Elfo.
+Região: Rivendell.
+Idade: 1002.
+Quantos Orcs assassinou: 122.
+É rei: Não
+

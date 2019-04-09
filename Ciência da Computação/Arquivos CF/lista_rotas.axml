@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_lista_fatura"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foregroundGravity="top"
+    android:gravity="fill_horizontal|center|clip_horizontal|clip_vertical|fill|start">
+    <LinearLayout
+        android:id="@+id/panelDescricao"
+        android:orientation="vertical"
+        android:background="@drawable/borda_layouts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_margin="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginRight="5sp"
+                android:background="@drawable/cf_checkk"
+                android:layout_width="25sp"
+                android:layout_height="25sp" />
+            <TextView
+                android:id="@+id/txtLocal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Padaria Canaa"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginRight="5sp"
+                android:background="@drawable/cf_timer"
+                android:layout_width="25sp"
+                android:layout_height="25sp" />
+            <TextView
+                android:id="@+id/txtHorario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="08:20"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginRight="5sp"
+                android:background="@drawable/cf_bus"
+                android:layout_width="25sp"
+                android:layout_height="25sp" />
+            <TextView
+                android:id="@+id/txtVeiculo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HCC-1217"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
